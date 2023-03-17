@@ -1,0 +1,100 @@
+* {
+    box-sizing: content-box;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    
+  }
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.center-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    flex-direction: column;
+ }
+
+
+
+.carousel-inner{
+    height: 300px;
+    width: min-content;
+}
+
+
+.item, img{
+    height: 100% !important;
+    width:  100% !important;
+    border: 1px solid black;
+}
+
+.carousel .item{
+    height: 150px;
+    width: 60px;
+}
+
+.item img {
+    position: center;
+    top: -0px;
+    left: 0;
+    min-height: 400px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 17px;
+    font-size: 50px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+  /* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+.fa-facebook {
+    background: rgb(36, 36, 36);
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+}
+  
+  /* Twitter */
+
+.fa-twitter {
+    background: rgb(36, 36, 36);
+    border-radius: 1000%;
+    color: white;
+}
+  
+ /* Instagram */
+.fa-instagram {
+    background: rgb(36, 36, 36);
+    border-radius: 50%;
+    color: white;
+  }
+  
+/* Github */
+.fa-github {
+    background: rgb(36, 36, 36);
+    border-radius: 50%;
+    color: white;
+}
+  
+  /* LinkedIn */
+.fa-linkedin {
+    background: rgb(36, 36, 36);
+    border-radius: 50%;
+    color: white;
+  }
+  
